@@ -62,8 +62,8 @@ export const Meteors = () => {
         meteor.y,
       );
 
-      gradient.addColorStop(0, `rgba(255,255,255,0)`);
-      gradient.addColorStop(1, `rgba(255,255,255,${meteor.opacity})`);
+      gradient.addColorStop(0, `rgba(140, 141, 143, 0)`);
+      gradient.addColorStop(1, `rgba(140, 141, 143, ${meteor.opacity})`);
 
       ctx.beginPath();
       ctx.strokeStyle = gradient;
@@ -74,7 +74,7 @@ export const Meteors = () => {
 
       // núcleo
       ctx.beginPath();
-      ctx.fillStyle = `white`;
+      ctx.fillStyle = `rgb(140, 141, 143)`;
       ctx.arc(meteor.x, meteor.y, meteor.radius, 0, Math.PI * 2);
       ctx.fill();
     };

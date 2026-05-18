@@ -1137,6 +1137,11 @@ source-map-js@^1.2.1:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.1.tgz#1ce5650fddd87abc099eda37dcff024c2667ae46"
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
+time2time@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/time2time/-/time2time-1.2.0.tgz#895392f934525b99b1dc03b9e37eefa95091fc6c"
+  integrity sha512-/erMtLqiSN29sGPAI9wttYYNjDrHeigMLisRfleRfvlTmyBjAsAFSyQ2PGh4eQbtyMq1bFn6ccBMNb6fMCIHpA==
+
 tinyglobby@^0.2.15, tinyglobby@^0.2.16:
   version "0.2.16"
   resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.16.tgz#1c3b7eb953fce42b226bc5a1ee06428281aff3d6"
